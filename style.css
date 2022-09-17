@@ -52,8 +52,9 @@ a {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  margin-top: 24px;
-  margin-left: 215px;
+  display: flex;
+  padding-top: 24px;
+  padding-left: 215px;
 }
 .menu-logo-blue {
   color: #2196f3;
@@ -83,8 +84,8 @@ a {
 }
 
 .menu-nav-list-email {
-  margin-left: 353px;
-  margin-right: 50px;
+  padding-left: 353px;
+  padding-right: 50px;
 }
 a {
   color: #212121;
@@ -260,6 +261,7 @@ footer {
   letter-spacing: 0.03em;
   padding-top: 60px;
   padding-left: 215px;
+  display: flex;
 }
 
 .footer-contact {
