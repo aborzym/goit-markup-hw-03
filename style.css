@@ -27,8 +27,6 @@ h2 {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -82,13 +80,31 @@ a {
   list-style-type: none;
 }
 
-.menu-nav-list-item {
+.menu-nav-list-portfolio {
   padding-left: 46px;
-  padding-right: 64px;
+}
+
+.menu-nav-list-contact {
+  padding-left: 64px;
+}
+
+.menu-nav-list-right{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-top: 32px;
+  padding-left: 353px;
+  display: inline-flex;
+  list-style-type: none;
+
 }
 
 .menu-nav-list-email {
-  padding-left: 353px;
+
   padding-right: 50px;
 }
 a {
@@ -128,7 +144,13 @@ a:hover {
   border-radius: 4px;
   margin-left: 700px;
   margin-top: 30px;
-  
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+  color: #ffffff;
 }
 
 .main-center {
@@ -141,7 +163,7 @@ a:hover {
 }
 
 .our-strenghts-list {
-  margin-left: 215px;
+  padding-left: 215px;
   margin-top: 94px;
   width: 1170px;
   height: 101px;
@@ -176,16 +198,15 @@ a:hover {
 }
 
 .what-we-do {
-  width: 1170px;
   height: 386px;
-  margin-left: 215px;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 94px;
 }
 
 .what-we-do-list {
   display: inline-flex;
   list-style-type: none;
+  padding-left: 215px;
+  margin-top: 50px;
 }
 
 .what-we-do-photo {
@@ -203,12 +224,17 @@ a:hover {
   margin-top: 0;
 }
 
+.our-team-contents{
+  padding-top: 94px;
+}
+
 .our-team-list {
   display: inline-flex;
   list-style-type: none;
   width: 1170px;
   height: 368px;
-  margin-left: 215px;
+  padding-left: 215px;
+  padding-top: 50px;
 }
 
 .our-team-element {
