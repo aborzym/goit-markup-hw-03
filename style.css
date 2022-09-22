@@ -64,6 +64,10 @@ a {
   color: black;
 }
 
+.menu-logo-white {
+  color: #ffffff;
+}
+
 .menu-nav-list {
   font-family: "Roboto";
   font-style: normal;
@@ -72,15 +76,15 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-  margin-left: 93px;
+  padding-left: 93px;
   margin-top: 32px;
   display: inline-flex;
   list-style-type: none;
 }
 
 .menu-nav-list-item {
-  margin-left: 46px;
-  margin-right: 64px;
+  padding-left: 46px;
+  padding-right: 64px;
 }
 
 .menu-nav-list-email {
@@ -90,6 +94,10 @@ a {
 a {
   color: #212121;
   text-decoration: none;
+}
+
+.menu-nav-list-tel {
+  color: #757575;
 }
 
 a:hover {
@@ -115,18 +123,16 @@ a:hover {
 .button {
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-left: 700px;
   margin-top: 30px;
+  
 }
 
 .main-center {
   margin: auto;
-
   width: 1600px;
   height: 769px;
   background-color: white;
