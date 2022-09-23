@@ -8,111 +8,141 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <header>
-        WebStudio
-
-        <nav>
-          <ul>
-            <li>Agencja</li>
-            <li>Portfolio</li>
-            <li>Kontakt</li>
-          </ul>
-        </nav>
-        <ul>
-          <li>info@devstudio.com</li>
-          <li>+48 111 111 111</li>
+    <header class="menu">
+      <span class="menu-logo"
+        ><span class="menu-logo-blue">Web</span>
+        <span class="menu-logo-black">Studio</span>
+      </span>
+      <nav>
+        <ul class="menu-nav-list">
+          <li><a href="#">Agencja</a></li>
+          <li class="menu-nav-list-portfolio"><a href="#">Portfolio</a></li>
+          <li class="menu-nav-list-contact"><a href="#">Kontakt</a></li>
         </ul>
-      </header>
-      <main>
-        <div>
-          <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+      </nav>
+      <section>
+        <ul class="menu-nav-list-right">
+          <li class="menu-nav-list-email">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="menu-nav-list-tel">
+            <a href="tel:+48 111 111 111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <section class="main-top">
+        <h1 class="slogan">Efektywne rozwiązania dla waszego biznesu</h1>
 
-          <button type="button">Zamów usługe</button>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-            <li>
-              <p>LOREM IPSUM</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div>
+        <button type="button" class="button">Zamów usługe</button>
+      </section>
+      <section class="main-center">
+        <ul class="our-strenghts-list">
+          <li class="our-strenghts-list-frame">
+            <p class="our-strenghts-list-title">LOREM IPSUM</p>
+            <p class="our-strenghts-list-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="our-strenghts-list-frame">
+            <p class="our-strenghts-list-title">LOREM IPSUM</p>
+            <p class="our-strenghts-list-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="our-strenghts-list-frame">
+            <p class="our-strenghts-list-title">LOREM IPSUM</p>
+            <p class="our-strenghts-list-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="our-strenghts-list-frame">
+            <p class="our-strenghts-list-title">LOREM IPSUM</p>
+            <p class="our-strenghts-list-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+        </ul>
+        <section class="what-we-do">
           <h2>Czym się zajmujemy</h2>
-          <ul>
-            <li><img src="/images/box_1.jpg" alt="Writing on laptop" /></li>
-            <li><img src="/images/box_2.jpg" alt="Checking the phone" /></li>
-            <li><img src="/images/box_3.jpg" alt="Handling the tablet" /></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Nasz zespół</h2>
-          <ul>
-            <li>
-              <img src="/images/john1.jpg" alt="John Doe - Product Designer" />
-              <p>John Doe</p>
-              <p>Product Designer</p>
+          <ul class="what-we-do-list">
+            <li class="what-we-do-photo">
+              <img src="/images/box_1.jpg" alt="Writing on laptop" />
             </li>
-            <li>
+            <li class="what-we-do-photo">
+              <img src="/images/box_2.jpg" alt="Checking the phone" />
+            </li>
+            <li class="what-we-do-photo">
+              <img src="/images/box_3.jpg" alt="Handling the tablet" />
+            </li>
+          </ul>
+        </section>
+      </section>
+      <div class="our-team">
+        <section class="our-team-contents">
+          <h2>Nasz zespół</h2>
+          <ul class="our-team-list">
+            <li class="our-team-element">
               <img
+                class="team-photo"
+                src="/images/john1.jpg"
+                alt="John Doe - Product Designer"
+              />
+              <p class="team-name">John Doe</p>
+              <p class="team-position">Product Designer</p>
+            </li>
+            <li class="our-team-element">
+              <img
+                class="team-photo"
                 src="/images/john2.jpg"
                 alt="John Doe - Frontend Developer"
               />
-              <p>John Doe</p>
-              <p>Frontend Developer</p>
+              <p class="team-name">John Doe</p>
+              <p class="team-position">Frontend Developer</p>
             </li>
-            <li>
-              <img src="/images/john3.jpg" alt="John Doe - Marketing" />
-              <p>John Doe</p>
-              <p>Marketing</p>
+            <li class="our-team-element">
+              <img
+                class="team-photo"
+                src="/images/john3.jpg"
+                alt="John Doe - Marketing"
+              />
+              <p class="team-name">John Doe</p>
+              <p class="team-position">Marketing</p>
             </li>
-            <li>
-              <img src="/images/john4.jpg" alt="John Doe - UI Designer" />
-              <p>John Doe</p>
-              <p>UI Designer</p>
+            <li class="our-team-element">
+              <img
+                class="team-photo"
+                src="/images/john4.jpg"
+                alt="John Doe - UI Designer"
+              />
+              <p class="team-name">John Doe</p>
+              <p class="team-position">UI Designer</p>
             </li>
           </ul>
-        </div>
-      </main>
-      <footer>
-        <section>WebStudio</section>
-        <section>
-          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-          <p>info@example.com</p>
-          <p>+48 111 111 111</p>
         </section>
-      </footer>
-    </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-logo">
+        <span class="menu-logo-blue">Web</span>
+        <span class="menu-logo-white">Studio</span>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-white">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <p>info@example.com</p>
+        <p>+48 111 111 111</p>
+      </div>
+    </footer>
   </body>
 </html>
