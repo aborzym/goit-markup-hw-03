@@ -31,6 +31,7 @@ h2 {
   margin-top: 0;
 }
 a {
+  color: #212121;
   text-decoration: none;
 }
 .menu {
@@ -88,7 +89,7 @@ a {
   padding-left: 64px;
 }
 
-.menu-nav-list-right{
+.menu-nav-list-right {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -100,16 +101,10 @@ a {
   padding-left: 353px;
   display: inline-flex;
   list-style-type: none;
-
 }
 
 .menu-nav-list-email {
-
   padding-right: 50px;
-}
-a {
-  color: #212121;
-  text-decoration: none;
 }
 
 .menu-nav-list-tel {
@@ -145,11 +140,11 @@ a:hover {
   margin-left: 700px;
   margin-top: 30px;
   font-family: Roboto;
-font-size: 16px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.06em;
-text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -224,7 +219,7 @@ text-align: center;
   margin-top: 0;
 }
 
-.our-team-contents{
+.our-team-contents {
   padding-top: 94px;
 }
 
@@ -235,6 +230,7 @@ text-align: center;
   height: 368px;
   padding-left: 215px;
   padding-top: 50px;
+  margin: 0;
 }
 
 .our-team-element {
@@ -306,6 +302,11 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .footer-white {
