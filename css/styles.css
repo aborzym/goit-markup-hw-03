@@ -33,6 +33,7 @@ h2 {
 a {
   color: #212121;
   text-decoration: none;
+  cursor: pointer;
 }
 .menu {
   display: flex;
@@ -42,6 +43,7 @@ a {
   width: 1600px;
   height: 80px;
   background-color: white;
+  margin-bottom: 1px;
 }
 
 .menu-logo {
