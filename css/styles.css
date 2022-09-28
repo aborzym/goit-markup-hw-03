@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Oleo Script", cursive;
   font-family: "Raleway", sans-serif;
@@ -35,10 +39,13 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
 .menu {
   display: flex;
-  margin: auto;
-  width: 1600px;
   margin: auto;
   width: 1600px;
   height: 80px;
@@ -79,8 +86,6 @@ a {
   color: #212121;
   padding-left: 93px;
   margin-top: 32px;
-  display: inline-flex;
-  list-style-type: none;
 }
 
 .menu-nav-list-portfolio {
@@ -101,8 +106,6 @@ a {
   color: #212121;
   margin-top: 32px;
   padding-left: 353px;
-  display: inline-flex;
-  list-style-type: none;
 }
 
 .menu-nav-list-email {
@@ -164,8 +167,6 @@ a:hover {
   margin-top: 94px;
   width: 1170px;
   height: 101px;
-  display: inline-flex;
-  list-style-type: none;
 }
 
 .our-strengths-list-frame {
@@ -200,8 +201,6 @@ a:hover {
 }
 
 .what-we-do-list {
-  display: inline-flex;
-  list-style-type: none;
   padding-left: 215px;
   margin-top: 50px;
 }
@@ -223,8 +222,6 @@ a:hover {
 }
 
 .our-team-list {
-  display: inline-flex;
-  list-style-type: none;
   width: 1170px;
   height: 368px;
   padding-left: 215px;
@@ -313,18 +310,33 @@ footer {
 }
 
 .portfolio-main {
+  margin: auto;
   width: 1600px;
   height: 1548px;
+  background-color: #fff;
+}
+.portfolio-buttons {
+  padding-top: 100px;
+  margin-left: 510px;
 }
 
-.portfolio-projects ul,
-.portfolio-buttons ul {
-  list-style: none;
-  display: flex;
+.portfolio-buttons button {
+  height: 38px;
+  margin-right: 8px;
+  padding: 0 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0;
+  color: #212121;
 }
-.portfolio-buttons ul {
-  padding-left: 532px;
-}
+
 .portfolio-projects ul {
   padding-left: 215px;
 }
