@@ -159,7 +159,7 @@ a:hover {
   margin-top: 0;
 }
 
-.our-strenghts-list {
+.our-strengths-list {
   padding-left: 215px;
   margin-top: 94px;
   width: 1170px;
@@ -168,11 +168,11 @@ a:hover {
   list-style-type: none;
 }
 
-.our-strenghts-list-frame {
+.our-strengths-list-frame {
   margin-right: 30px;
   width: 270px;
 }
-.our-strenghts-list-title {
+.our-strengths-list-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -182,7 +182,7 @@ a:hover {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.our-strenghts-list-description {
+.our-strengths-list-description {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -313,4 +313,49 @@ footer {
 
 .footer-white {
   color: white;
+}
+
+.portfolio-main {
+  width: 1600px;
+  height: 1548px;
+}
+
+.portfolio-projects ul,
+.portfolio-buttons ul {
+  list-style: none;
+  display: flex;
+}
+.portfolio-buttons ul {
+  padding-left: 532px;
+}
+.portfolio-projects ul {
+  padding-left: 215px;
+}
+
+.portfolio-projects li {
+  padding-right: 30px;
+}
+
+.portfolio-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  padding-left: 24px;
+  padding-top: 20px;
+}
+
+.portfolio-category {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  padding-left: 24px;
+  padding-top: 4px;
 }
