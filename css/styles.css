@@ -337,6 +337,11 @@ footer {
   color: #212121;
 }
 
+.portfolio-buttons button:hover {
+  color: #fff;
+  background: #2196f3;
+}
+
 .portfolio-projects ul {
   padding-left: 215px;
 }
