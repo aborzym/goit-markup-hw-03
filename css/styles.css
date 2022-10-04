@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 body {
   font-family: "Oleo Script", cursive;
   font-family: "Raleway", sans-serif;
@@ -10,6 +10,10 @@ body {
   /* TODO Element <body> ma właściwość color z dominującym w układzie kolorem tekstu. Reszta tekstu dziedziczy lub zastępuje tę wartość. */
 }
 
+.link {
+  color: #212121;
+  text-decoration: none;
+}
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -30,11 +34,6 @@ h2 {
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
-}
-a {
-  color: #212121;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 ul {
@@ -59,9 +58,8 @@ ul {
   display: flex;
   padding-top: 24px;
   padding-left: 215px;
-}
-.menu-logo-blue {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .menu-logo-black {
@@ -82,15 +80,15 @@ ul {
   margin-top: 32px;
 }
 
-.menu-nav-list-portfolio {
+.menu-portfolio {
   padding-left: 46px;
 }
 
-.menu-nav-list-contact {
+.menu-contact {
   padding-left: 64px;
 }
 
-.menu-nav-list-right {
+.menu-nav-right {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -100,7 +98,7 @@ ul {
   padding-left: 353px;
 }
 
-.menu-nav-list-email {
+.menu-nav-email {
   padding-right: 50px;
 }
 
@@ -108,8 +106,8 @@ ul {
   color: #757575;
 }
 
-a:hover,
-a:focus {
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
 
