@@ -1,20 +1,23 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
 body {
   font-family: "Oleo Script", cursive;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
-  /* TODO Element <body> ma właściwość color z dominującym w układzie kolorem tekstu. Reszta tekstu dziedziczy lub zastępuje tę wartość. */
+  color: #212121;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
   color: #212121;
   text-decoration: none;
 }
-h1 {
+
+.link:visited {
+  text-decoration: none;
+}
+
+.slogan {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -22,9 +25,14 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-left: 452px;
+  padding-top: 200px;
+  margin: 0;
+  height: 120px;
+  width: 696px;
 }
 
-h2 {
+.header2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -36,9 +44,18 @@ h2 {
   margin-top: 0;
 }
 
-ul {
+.list {
   list-style-type: none;
   display: inline-flex;
+}
+.list-block {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-block li {
+  padding-bottom: 9px;
 }
 .menu {
   display: flex;
@@ -56,8 +73,9 @@ ul {
   line-height: 31px;
   letter-spacing: 0.03em;
   display: flex;
-  padding-top: 24px;
-  padding-left: 215px;
+  margin-top: 24px;
+  margin-left: 215px;
+  margin-bottom: 25px;
   color: #2196f3;
   text-decoration: none;
 }
@@ -81,11 +99,7 @@ ul {
 }
 
 .menu-portfolio {
-  padding-left: 46px;
-}
-
-.menu-contact {
-  padding-left: 64px;
+  padding: 0 46px;
 }
 
 .menu-nav-right {
@@ -95,7 +109,7 @@ ul {
   letter-spacing: 0.02em;
   color: #212121;
   margin-top: 32px;
-  padding-left: 353px;
+  padding-left: 371px;
 }
 
 .menu-nav-email {
@@ -105,7 +119,9 @@ ul {
 .menu-nav-list-tel {
   color: #757575;
 }
-
+.active-page {
+  color: #2196f3;
+}
 .link:hover,
 .link:focus {
   color: #2196f3;
@@ -118,20 +134,12 @@ ul {
   background-color: #2f303a;
 }
 
-.slogan {
-  padding-left: 452px;
-  padding-top: 200px;
-  height: 120px;
-  width: 696px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
 .button {
   width: 200px;
   height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: #2196f3;
   border-radius: 4px;
   margin-left: 700px;
   margin-top: 30px;
@@ -149,8 +157,6 @@ ul {
   width: 1600px;
   height: 769px;
   background-color: white;
-  margin-bottom: 0;
-  margin-top: 0;
 }
 
 .our-strengths-list {
@@ -158,6 +164,7 @@ ul {
   margin-top: 94px;
   width: 1170px;
   height: 101px;
+  margin-bottom: 0;
 }
 
 .our-strengths-list-frame {
@@ -171,6 +178,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 .our-strengths-list-description {
   font-size: 14px;
@@ -179,6 +187,7 @@ ul {
   color: #757575;
   width: 270px;
   height: 75px;
+  margin: 0;
 }
 
 .what-we-do {
@@ -189,6 +198,7 @@ ul {
 .what-we-do-list {
   padding-left: 215px;
   margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .what-we-do-photo {
@@ -200,10 +210,8 @@ ul {
 .our-team {
   margin: auto;
   width: 1600px;
-  height: 648px;
   background: #f5f4fa;
   margin-bottom: 0;
-  margin-top: 0;
   padding-top: 94px;
 }
 
@@ -212,7 +220,8 @@ ul {
   height: 368px;
   padding-left: 215px;
   padding-top: 50px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 .our-team-element {
@@ -223,6 +232,9 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-right: 30px;
+}
+.photos {
+  margin: 0;
 }
 
 .team-photo {
@@ -248,9 +260,10 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
-footer {
+.footer {
   width: 1600px;
   height: 252px;
   background: #2f303a;
@@ -263,6 +276,7 @@ footer {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: #2196f3;
   padding-top: 60px;
   padding-left: 215px;
   display: flex;
@@ -272,6 +286,7 @@ footer {
   padding-left: 215px;
   padding-top: 20px;
   font-size: 14px;
+  font-style: normal;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -300,7 +315,7 @@ footer {
 .portfolio-buttons button {
   height: 38px;
   margin-right: 8px;
-  padding: 0 22px;
+  padding: 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
