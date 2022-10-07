@@ -1,5 +1,6 @@
 :root {
   --white: #fff;
+  --border-grid: #eee;
   --vlgrey: #f5f4fa;
   --lgrey: #e5e5e5;
   --grey: #757575;
@@ -65,6 +66,7 @@ body {
   list-style-type: none;
   display: inline-flex;
   padding: 0;
+  margin: 0;
 }
 .list-block {
   list-style-type: none;
@@ -331,8 +333,7 @@ body {
   background-color: var(--white);
 }
 .portfolio-buttons {
-  padding-top: 94px;
-  margin-left: 510px;
+  padding: 94px 0 50px 510px;
 }
 
 .portfolio-button {
@@ -357,14 +358,17 @@ body {
   background: var(--blue);
 }
 
-.portfolio-projects ul {
+.grid-container {
   padding-left: 215px;
+  display: inline-grid;
+  gap: 30px;
+  grid-template-columns: 370px 370px 370px;
+  grid-template-rows: 404px 404px 404px;
 }
-
-.portfolio-projects li {
-  padding-right: 30px;
+.grid-item {
+  margin: 0;
+  border: 1px solid var(--border-grid);
 }
-
 .portfolio-name {
   font-weight: 700;
   font-size: 18px;
@@ -373,6 +377,7 @@ body {
   color: var(--vdgrey);
   padding-left: 24px;
   padding-top: 20px;
+  margin: 0;
 }
 
 .portfolio-category {
@@ -382,4 +387,5 @@ body {
   color: var(--grey);
   padding-left: 24px;
   padding-top: 4px;
+  margin: 0;
 }
