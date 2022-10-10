@@ -22,6 +22,7 @@ body {
 .link,
 .link:visited {
   text-decoration: none;
+  color: var(--vdgrey);
 }
 
 .link-grey {
@@ -139,6 +140,7 @@ body {
 .link-grey:focus,
 .link-grey-footer:hover,
 .link-grey-footer:focus {
+  text-decoration: none;
   color: var(--blue);
 }
 
